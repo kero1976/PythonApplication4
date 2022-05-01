@@ -1,0 +1,104 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>90e29025-2e3a-4ed7-88a9-a266fcf0dc02</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>PythonApplication4.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PythonApplication4</Name>
+    <RootNamespace>PythonApplication4</RootNamespace>
+    <TestFramework>pytest</TestFramework>
+    <UnitTestPattern>test*.py</UnitTestPattern>
+    <UnitTestRootDirectory>.</UnitTestRootDirectory>
+    <InterpreterId>
+    </InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DirModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FileModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="KeywordModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PythonApplication4.py" />
+    <Compile Include="test_DirModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_FileModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_KeywordModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_SetModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test_UnionModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UnionMmodule.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SetModule.py">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="テストデータ\" />
+    <Folder Include="テストデータ\テスト1\" />
+    <Folder Include="テストデータ\テスト1\ABC\" />
+    <Folder Include="テストデータ\テスト1\DEF\" />
+    <Folder Include="テストデータ\テスト1\DEF\XYZ\" />
+    <Folder Include="テストデータ\テスト1\GHQ\" />
+    <Folder Include="テストデータ\テスト2\" />
+    <Folder Include="テストデータ\テスト2\ABC\" />
+    <Folder Include="テストデータ\テスト2\DEF\" />
+    <Folder Include="テストデータ\テスト2\DEF\XYZ\" />
+    <Folder Include="テストデータ\テスト2\GHQ\" />
+    <Folder Include="テストデータ\テスト3\" />
+    <Folder Include="テストデータ\テスト4\" />
+    <Folder Include="テストデータ\テスト5\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="テストデータ\テスト1\ABC\TextFile1.txt" />
+    <Content Include="テストデータ\テスト1\ABC\TextFile2.txt" />
+    <Content Include="テストデータ\テスト1\DEF\XYZ\TextFile3.txt" />
+    <Content Include="テストデータ\テスト2\ABC\TextFile1.csv" />
+    <Content Include="テストデータ\テスト2\ABC\TextFile2.txt" />
+    <Content Include="テストデータ\テスト2\DEF\XYZ\TextFile3.csv" />
+    <Content Include="テストデータ\テスト3\キーワード2.txt" />
+    <Content Include="テストデータ\テスト3\キーワード.txt" />
+    <Content Include="テストデータ\テスト3\入力ファイル.txt" />
+    <Content Include="テストデータ\テスト4\TextFile1.txt" />
+    <Content Include="テストデータ\テスト4\TextFile3.txt" />
+    <Content Include="テストデータ\テスト4\TextFile2.txt" />
+    <Content Include="テストデータ\テスト4\キーワード.txt" />
+    <Content Include="テストデータ\テスト4\入力ファイル.txt" />
+    <Content Include="テストデータ\テスト5\~%24テスト.xlsx" />
+    <Content Include="テストデータ\テスト5\テスト.xlsx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

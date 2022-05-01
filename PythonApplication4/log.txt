@@ -1,0 +1,566 @@
+2022-05-01 20:40:48,053:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 20:40:48,054:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 20:40:48,054:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 20:40:48,055:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 20:40:48,055:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 20:40:48,055:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 20:40:48,055:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 20:40:48,056:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 20:40:48,056:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 20:40:48,056:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 20:40:48,056:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 20:40:48,056:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 20:40:48,056:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 20:40:48,056:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 20:40:48,057:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 20:40:48,057:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 20:40:48,057:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 20:40:48,057:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:40:48,057:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:40:48,057:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 20:40:48,057:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 20:40:48,057:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 20:40:48,058:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 20:40:48,058:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:40:48,058:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:40:48,058:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 20:40:48,058:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 20:40:48,058:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 20:40:48,058:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 20:40:48,059:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 20:40:48,059:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 20:40:48,059:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 20:40:48,059:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 20:40:48,059:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 20:40:48,059:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 20:40:48,059:DEBUG:create_keyword:{'status': 'run', 'param': 'size:31'}
+2022-05-01 20:40:48,060:DEBUG:create_keyword:{'status': 'success', 'param': '31', 'resulecount': 22}
+2022-05-01 20:40:48,060:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:22'}
+2022-05-01 20:45:30,362:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 20:45:30,363:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 20:45:30,363:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 20:45:30,364:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 20:45:30,364:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 20:45:30,364:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 20:45:30,364:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 20:45:30,364:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 20:45:30,365:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 20:45:30,365:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 20:45:30,365:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 20:45:30,365:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 20:45:30,365:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:45:30,366:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:45:30,366:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 20:45:30,366:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 20:45:30,366:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 20:45:30,366:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 20:45:30,366:DEBUG:create_keyword:{'status': 'run', 'param': 'size:15'}
+2022-05-01 20:45:30,366:DEBUG:create_keyword:{'status': 'success', 'param': '15', 'resulecount': 15}
+2022-05-01 20:45:51,948:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 20:45:51,948:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 20:45:51,948:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 20:45:51,949:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 20:45:51,950:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 20:45:51,950:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 20:45:51,950:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 20:45:51,950:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 20:45:51,950:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 20:45:51,950:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 20:45:51,950:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 20:45:51,950:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 20:45:51,951:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 20:45:51,951:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 20:45:51,951:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 20:45:51,951:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 20:45:51,951:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 20:45:51,951:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:45:51,951:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:45:51,951:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 20:45:51,952:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 20:45:51,952:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 20:45:51,952:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 20:45:51,952:DEBUG:create_keyword:{'status': 'run', 'param': 'size:15'}
+2022-05-01 20:45:51,952:DEBUG:create_keyword:{'status': 'success', 'param': '15', 'resulecount': 15}
+2022-05-01 20:45:51,952:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:45:51,952:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:45:51,952:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 20:45:51,953:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 20:45:51,953:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 20:45:51,953:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 20:45:51,953:DEBUG:create_keyword:{'status': 'run', 'param': 'size:10'}
+2022-05-01 20:45:51,953:DEBUG:create_keyword:{'status': 'success', 'param': '10', 'resulecount': 10}
+2022-05-01 20:46:32,620:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 20:46:32,620:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 20:46:32,621:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 20:46:32,621:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 20:46:32,622:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 20:46:32,622:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 20:46:32,622:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 20:46:32,622:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 20:46:32,622:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 20:46:32,622:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 20:46:32,622:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 20:46:32,622:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 20:46:32,623:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 20:46:32,623:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 20:46:32,623:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 20:46:32,623:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 20:46:32,623:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 20:46:32,623:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:46:32,623:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:46:32,623:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 20:46:32,623:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 20:46:32,624:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 20:46:32,624:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 20:46:32,624:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:46:32,624:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 20:46:32,624:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 20:46:32,624:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 20:46:32,624:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 20:46:32,625:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 20:55:04,498:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 20:55:04,499:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 20:55:04,499:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 20:55:04,500:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 20:55:04,501:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 20:55:04,501:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 20:55:04,501:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 20:55:04,501:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:55:04,501:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 20:55:04,502:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 20:55:04,502:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 20:55:04,502:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 20:55:04,502:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:00:52,211:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:00:52,212:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:00:52,212:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:00:52,213:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:00:52,213:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:00:52,213:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:00:52,213:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:00:52,214:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:00:52,214:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:00:52,214:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:00:52,214:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:00:52,214:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:00:52,215:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:00:52,215:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:00:52,215:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:00:52,215:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:00:52,215:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:00:52,215:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:00:52,215:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:00:52,215:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:00:52,216:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:00:52,216:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:00:52,216:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:00:52,216:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:00:52,216:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:00:52,216:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:00:52,217:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:00:52,217:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:00:52,217:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:00:52,217:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:01:06,040:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:01:06,041:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:01:06,041:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:01:06,042:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:01:06,042:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:01:06,042:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:01:06,043:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:01:06,043:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:01:06,043:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:01:06,043:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:01:06,043:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:01:06,044:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:01:06,044:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:01:06,044:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:01:06,044:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:01:06,044:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:01:06,044:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:01:06,044:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:01:06,044:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:01:06,045:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:01:06,045:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:01:06,045:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:01:06,045:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:01:06,045:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:01:06,045:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:01:06,045:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:01:06,045:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:01:06,046:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:01:06,046:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:01:06,046:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:01:06,046:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:01:28,006:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:01:28,007:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:01:28,007:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:01:28,008:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:01:28,008:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:01:28,009:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:01:28,009:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:01:28,009:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:01:28,009:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:01:28,009:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:01:28,010:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:01:28,010:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:01:28,010:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:01:28,010:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:01:28,010:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:01:28,010:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:01:28,010:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:01:28,011:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:01:28,011:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:01:28,011:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:01:28,011:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:01:28,011:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:01:28,012:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:01:28,012:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:01:28,012:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:01:28,012:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:02:14,881:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:02:14,881:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:02:14,881:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:02:14,882:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:02:14,882:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:02:14,883:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:02:14,883:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:02:14,883:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:02:14,883:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:02:14,883:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:02:14,883:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:02:14,883:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:02:14,884:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:02:14,884:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:02:14,884:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:02:14,884:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:02:14,884:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:02:14,884:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:02:14,884:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:02:14,884:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:02:14,885:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:02:14,885:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:02:14,885:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:02:14,885:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:02:14,885:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:02:14,885:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:02:14,885:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:02:14,885:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:02:14,886:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:02:14,886:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:02:14,886:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:02:14,886:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:02:14,886:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:02:14,886:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:02:14,887:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:02:14,887:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:02:23,264:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:02:23,265:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:02:23,265:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:02:23,266:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:02:23,266:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:02:23,267:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:02:23,267:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:02:23,267:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:02:23,267:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:02:23,267:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:02:23,267:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:02:23,267:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:02:23,267:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:02:23,267:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:02:23,267:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:02:23,268:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:02:23,268:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:02:23,268:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:02:23,268:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:02:23,268:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:02:23,268:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:02:23,268:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:02:23,269:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:02:23,269:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:02:23,269:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:02:23,269:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:02:23,269:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:02:23,270:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:02:23,270:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:02:23,270:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:02:23,270:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:02:23,270:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:02:23,270:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:02:23,270:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:02:23,271:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:02:23,271:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:09:05,059:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:09:05,060:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:09:05,060:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:09:05,061:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:09:05,061:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:09:05,061:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:09:05,062:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:09:05,062:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:09:05,062:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:09:05,062:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:09:05,062:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:09:05,063:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:09:05,063:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:09:05,063:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:09:05,063:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:09:05,063:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:09:05,063:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:09:05,063:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:09:05,064:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:09:05,064:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:09:05,064:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:09:05,064:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:09:05,064:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:09:05,064:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:09:05,064:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:09:05,064:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:09:05,065:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:09:05,065:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:09:05,065:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:09:05,065:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:09:05,066:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:10:27,671:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:10:27,671:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:10:27,672:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:10:27,673:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:10:27,673:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:10:27,673:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:10:27,673:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:10:27,674:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:10:27,674:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:10:27,674:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:10:27,674:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:10:27,674:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:10:27,674:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:10:27,674:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:10:27,674:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:10:27,674:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:10:27,675:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:10:27,675:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:10:27,675:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:10:27,675:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:10:27,675:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:10:27,675:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:10:27,675:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:10:27,676:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:10:27,676:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:10:27,676:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:10:27,676:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:10:27,676:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:10:27,677:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:10:27,677:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:10:27,677:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:10:52,523:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:10:52,524:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:10:52,524:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:10:52,525:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:10:52,525:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:10:52,525:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:10:52,525:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:10:52,525:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:10:52,526:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:10:52,526:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:10:52,526:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:10:52,526:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:10:52,526:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:10:52,527:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:10:52,527:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:10:52,527:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:10:52,527:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:10:52,527:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:10:52,527:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:10:52,527:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:10:52,527:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:10:52,528:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:10:52,528:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:10:52,528:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:10:52,528:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:10:52,528:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:10:52,528:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:10:52,529:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:10:52,529:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:10:52,529:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:10:52,529:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:11:31,737:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:11:31,738:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:11:31,738:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:11:31,739:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:11:31,739:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:11:31,739:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:11:31,739:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:11:31,739:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:11:31,740:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:11:31,740:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:11:31,740:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:11:31,740:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:11:31,740:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:11:31,741:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:11:31,741:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:11:31,741:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:11:31,741:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:11:31,741:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:11:31,741:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:11:31,741:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:11:31,742:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:11:31,742:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:11:31,742:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:11:31,742:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:11:31,742:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:11:31,743:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:11:31,743:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:11:31,743:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:11:31,743:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:11:31,743:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:11:31,743:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:12:18,815:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:12:18,816:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:12:18,816:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:12:18,817:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:12:18,817:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:12:18,818:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:12:18,818:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:12:18,818:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:12:18,818:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:12:18,818:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:12:18,819:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:12:18,819:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:12:18,819:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:12:18,819:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:12:18,819:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:12:18,819:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:12:18,820:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:12:18,820:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:12:18,820:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:12:18,820:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:12:18,820:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:12:18,820:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:12:18,821:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:12:18,821:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:12:18,821:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:12:18,821:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:20:02,833:DEBUG:file_name_sarch:{'status': 'run', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text'}
+2022-05-01 21:20:02,834:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4'}
+2022-05-01 21:20:02,834:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\ is Directory
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt is File
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt is File
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt is File
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\キーワード.txt is File
+2022-05-01 21:20:02,835:DEBUG:file_names:  テストデータ\テスト4\入力ファイル.txt is File
+2022-05-01 21:20:02,836:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4', 'resultcount': 5}
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile1.txt is OK,
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile2.txt is OK,
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:  テストデータ\テスト4\TextFile3.txt is OK,
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:  テストデータ\テスト4\キーワード.txt is NG.
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:  テストデータ\テスト4\入力ファイル.txt is NG.
+2022-05-01 21:20:02,836:DEBUG:file_name_sarch:{'status': 'success', 'param[0]': 'テストデータ\\テスト4', 'param[1]': 'Text', 'resulecount': 3}
+2022-05-01 21:20:02,836:DEBUG:list_keyword:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:20:02,836:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:20:02,836:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile1.txt'}
+2022-05-01 21:20:02,837:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile1.txt
+2022-05-01 21:20:02,837:DEBUG:file_names:  テストデータ\テスト4\TextFile1.txt\ is File
+2022-05-01 21:20:02,837:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 1}
+2022-05-01 21:20:02,837:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile1.txt', 'resultcount': 15}
+2022-05-01 21:20:02,837:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:20:02,837:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile2.txt'}
+2022-05-01 21:20:02,837:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile2.txt
+2022-05-01 21:20:02,838:DEBUG:file_names:  テストデータ\テスト4\TextFile2.txt\ is File
+2022-05-01 21:20:02,838:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 1}
+2022-05-01 21:20:02,838:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile2.txt', 'resultcount': 10}
+2022-05-01 21:20:02,838:DEBUG:file_read:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:20:02,838:DEBUG:file_names:{'status': 'run', 'param': 'テストデータ\\テスト4\\TextFile3.txt'}
+2022-05-01 21:20:02,838:DEBUG:file_names:  絶対パス:C:\Users\kero\source\repos\PythonApplication4\PythonApplication4\テストデータ\テスト4\TextFile3.txt
+2022-05-01 21:20:02,839:DEBUG:file_names:  テストデータ\テスト4\TextFile3.txt\ is File
+2022-05-01 21:20:02,839:DEBUG:file_names:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 1}
+2022-05-01 21:20:02,839:DEBUG:file_read:{'status': 'success', 'param': 'テストデータ\\テスト4\\TextFile3.txt', 'resultcount': 6}
+2022-05-01 21:20:02,839:DEBUG:list_keyword:{'status': 'success', 'param': 'size:3', 'resultcount': 'size:3'}
+2022-05-01 21:28:21,118:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:28:38,774:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:32:24,564:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:34:16,182:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:34:35,854:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:37:07,082:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:38:40,430:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:39:07,189:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:46:19,052:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:47:50,564:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:48:35,047:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 21:52:25,394:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:11:30,017:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:11:57,222:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:12:44,344:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:15:13,440:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:15:41,175:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:16:04,700:DEBUG:add:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:22:14,119:DEBUG:intersection:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:26:26,245:DEBUG:intersection:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:26:39,277:DEBUG:intersection:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:28:41,975:DEBUG:intersection:{'status': 'run', 'param': 'size:3'}
+2022-05-01 22:29:49,970:DEBUG:intersection:{'status': 'run', 'param': 'size:3'}
